@@ -15,8 +15,6 @@
 
 ```powershell
 
--> hat nicht funktioniert
-
 # Setze Variablen
 $resourceGroupName = "myResourceGroupPs"
 $location = "centralus"
@@ -56,6 +54,9 @@ az storage blob upload \
 ```
 
 ```powershell
+
+-> hat nicht funktioniert
+
 # Speicher-Konto und Schlüssel definieren
 $storageAccountName = "mystoragelaura"
 $storageAccountKey = "key2"
