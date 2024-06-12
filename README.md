@@ -31,12 +31,12 @@ New-AzAppServicePlan -ResourceGroupName $resourceGroupName -Name $appServicePlan
 New-AzWebApp -ResourceGroupName $resourceGroupName -Name $webAppName -Location $location -AppServicePlan $appServicePlanName
 ```
 
-## Storage via Bash ein File hochladen
+## Blob Storage via Bash ein File hochladen
 
 ```bash
 az login
-storageAccountName=aditeststorage1234
-resourceGroupName=adistoragetestch
+storageAccountName=Storage1
+resourceGroupName=StorageGroup
 sasToken=$(az storage account generate-sas \
     --permissions rwdlacup \
     --account-name $storageAccountName \
